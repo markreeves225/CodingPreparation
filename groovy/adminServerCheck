@@ -1,0 +1,10 @@
+String agentName = "AXIEL3V430CA01";     //input string
+String firstFourChars = agentName.substring(0, 4).toUpperCase();     //substring containing first 4 characters
+ 
+def nameList = ["YBAL","YBBR","YBCL","YBDE"];
+ 
+if(nameList.contains(firstFourChars)) {
+    println("created by ucd")
+} else {
+    println("ignore this")
+}
